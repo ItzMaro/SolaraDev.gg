@@ -2,6 +2,6 @@
 import { redirect } from "next/navigation";
 
 export default function WhyAreYouEvenHere() {
-    redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    redirect("https://discord.gg/jYUVS6SbtD");
     return null;
 }
