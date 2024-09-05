@@ -28,14 +28,14 @@ export default function Header() {
                 `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
               )}
             >
-              Introducing Zen Alpha
+              Introducing Solara Alpha
             </span>
             <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
           </AnimatedGradientText>
         </a>
         <h1 className="animate-fade-in -translate-y-4 text-balance bg-gradient-to-br from-black from-30% to-black/40 bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] sm:text-6xl md:text-7xl lg:text-8xl dark:from-white dark:to-white/40">
-          Zen is the best way
-          <br className="hidden md:block" /> to browse the web.
+          Solara is the best way
+          <br className="hidden md:block" /> to exploit on Roblox..
         </h1>
         <p className="animate-fade-in mb-12 -translate-y-4 text-balance text-lg tracking-tight text-gray-400 opacity-0 [--animation-delay:400ms] md:text-xl">
           Beautifully designed, privacy-focused, and packed with features.
@@ -47,7 +47,7 @@ export default function Header() {
           <Button
             className="animate-fade-in -translate-y-4 gap-1 text-white opacity-0 ease-in-out [--animation-delay:600ms] dark:text-black"
           >
-            <span>Download Zen Now </span>
+            <span>Download Solara Now </span>
             <ArrowRightIcon className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
           </Button>
           </a>
