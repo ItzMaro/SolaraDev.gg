@@ -215,8 +215,8 @@ export default function DownloadPage() {
             <div className="flex items-center justify-center flex-col">
               <h1 className="text-6xl font-bold">Downloaded! ❤️</h1>
               <p className="text-muted-foreground mt-3 text-center">
-                Zen Browser has been downloaded successfully. Enjoy browsing the
-                web with Zen!
+                Solara Exploit has been downloaded successfully. Enjoy exploiting in roblox
+                with Solara!
               </p>
               <div className="flex font-bold mt-5 items-center justify-between mx-auto">
                 <a href="https://github.com/zen-browser">Source Code</a>
@@ -236,7 +236,7 @@ export default function DownloadPage() {
                     Installation Instructions
                   </h3>
                   <p className="text-muted-foreground text-sm ">
-                    To install Zen on MacOS, the process is a bit different.
+                    To install Solara on MacOS, the process is a bit different.
                     Please follow the instructions below:
                   </p>
                   <Button
@@ -246,7 +246,7 @@ export default function DownloadPage() {
                         "https://docs.zen-browser.app/guides/install-macos")
                     }
                   >
-                    Download Zen for MacOS
+                    Download Solara for MacOS
                   </Button>
                 </div>
               )}
@@ -255,7 +255,7 @@ export default function DownloadPage() {
             <>
               <h1 className="text-6xl font-bold flex flex-col lg:flex-row">Download <SparklesText className="mx-2" text="Zen" /></h1>
               <p className="text-muted-foreground mt-3">
-                We're thrilled for you to experience Zen Browser. First, let us know which device you're using. This will only take a moment, we promise.
+                We're thrilled for you to experience Solara Exploit. First, let us know which device you're using. This will only take a moment, we promise.
               </p>
             </>
           )}
@@ -265,7 +265,7 @@ export default function DownloadPage() {
               <FormField enter={platform === null} out={platform !== null}>
                 <FieldTitle>Platform</FieldTitle>
                 <FieldDescription>
-                  Choose the platform you want to download Zen for.
+                  Choose the platform you want to download Solara for.
                 </FieldDescription>
                 <div className="flex">
 									<div
@@ -386,9 +386,9 @@ export default function DownloadPage() {
 									enter={platform === "MacOS"}
 									out={platform !== "MacOS"}
 								>
-									<FieldTitle>Download Zen for MacOS</FieldTitle>
+									<FieldTitle>Download Solara for MacOS</FieldTitle>
 									<FieldDescription>
-										Click the button below to download Zen for MacOS.
+										Click the button below to download Solara for MacOS.
 									</FieldDescription>
 									<div className="flex items-center justify-center">
 										<div
@@ -426,10 +426,10 @@ export default function DownloadPage() {
                 out={platform !== "Windows" && flowIndex >= 2}
               >
                 <FieldTitle className="text-2xl">
-                  Download Zen for Windows {selectedArchitecture}
+                  Download Solara for Windows {selectedArchitecture}
                 </FieldTitle>
                 <FieldDescription>
-                  Choose the type of download you want for Zen for Windows.
+                  Choose the type of download you want for Solara for Windows.
                 </FieldDescription>
                 <div className="flex items-center justify-center">
                   <div
@@ -446,7 +446,7 @@ export default function DownloadPage() {
                     </h1>
                     <h1 className="text-2xl font-semibold my-2">Installer</h1>
                     <p className="text-muted-foreground mx-auto text-center">
-                      Install Zen with a setup wizard
+                      Install Solara with a setup wizard
                     </p>
                   </div>
                   <div
@@ -463,7 +463,7 @@ export default function DownloadPage() {
                     </h1>
                     <h1 className="text-2xl font-semibold my-2">Portable</h1>
                     <p className="text-muted-foreground mx-auto text-center">
-                      Download Zen as a ZIP file
+                      Download Solara as a ZIP file
                     </p>
                   </div>
                 </div>
@@ -475,10 +475,10 @@ export default function DownloadPage() {
                 out={platform !== "Linux" && flowIndex >= 2}
               >
                 <FieldTitle className="text-2xl">
-                  Download Zen for Linux {selectedArchitecture}
+                  Download Solara for Linux {selectedArchitecture}
                 </FieldTitle>
                 <FieldDescription>
-                  Choose the type of download you want for Zen for Linux.
+                  Choose the type of download you want for Solara for Linux.
                 </FieldDescription>
                 <div className="flex items-center justify-center">
                   <div
@@ -495,7 +495,7 @@ export default function DownloadPage() {
                     </h1>
                     <h1 className="text-2xl font-semibold my-2">AppImage</h1>
                     <p className="text-muted-foreground mx-auto text-center">
-                      Install Zen with a setup wizard
+                      Install Solara with a setup wizard
                     </p>
                   </div>
                   <div
@@ -512,7 +512,7 @@ export default function DownloadPage() {
                     </h1>
                     <h1 className="text-2xl font-semibold my-2">Portable</h1>
                     <p className="text-muted-foreground mx-auto text-center">
-                      Download Zen as a ZIP file
+                      Download Solara as a ZIP file
                     </p>
                   </div>
                   <div
@@ -532,7 +532,7 @@ export default function DownloadPage() {
                     </h1>
                     <h1 className="text-2xl font-semibold my-2">Flatpak</h1>
                     <p className="text-muted-foreground mx-auto text-center">
-                      Install Zen from the Flatpak repository.
+                      Install Solara from the Flatpak repository.
                     </p>
                   </div>
                 </div>
