@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col">
           <Logo />
           <div className="mt-auto">
-            <h1 className="text-2xl font-bold opacity-80">Zen Browser</h1>
+            <h1 className="text-2xl font-bold opacity-80">Solara Exploit</h1>
             <h2 className="text-md font-bold opacity-80 mt-6">Follow Us</h2>
             <div className="flex mt-4 opacity-70">
               <a href="https://github.com/zen-browser">
