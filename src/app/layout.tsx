@@ -9,9 +9,9 @@ import { Navigation } from "@/components/navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zen Browser",
-  description: "Download now and experience the Zen Browser",
-  keywords: ["Zen", "Browser", "Zen Browser", "Web", "Internet", "Fast"],
+  title: "Solara",
+  description: "Download now and experience the Solara Executor",
+  keywords: ["Solara", "Executor", "Exploit", "Roblox", "Hack", "Fast"],
 };
 
 export default async function RootLayout({
